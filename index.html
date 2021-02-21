@@ -1,0 +1,69 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style/style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="menu__left" id="menu__left" onclick="openMenu()">
+            <div class="menu__close" id="menu__close"></div>
+
+            <form action="" class="menu-form">
+               <input type="text" id="menu-search-name" placeholder="Search" autofocus" />
+               <input type="button" value="Search" id="buttonSearch" onclick="search(this.id)" />
+            </form>
+
+            <div class="block-search-age">
+               <p class="search-title">Age</p>
+
+               <div class="block-input">
+                  <div class="input-blocks">
+                     <p>From</p>
+                     <input type="text" id="search-age_from" value="0" />
+                  </div>
+                  <div class="search-input-block">
+                     <p>Before</p>
+                     <input type="text" id="search-age_before" value="80" />
+                  </div>
+               </div>
+
+               <input type="button" value="Search" id="buttonSearchAge" onclick="search(this.id)" />
+            </div>
+         </div>
+         <div class="menu-button-tel">
+            <span>m</span><br />
+            <span>e</span><br />
+            <span>n</span><br />
+            <span>u</span><br />
+         </div>
+         <div class="content" id="content">
+            <div class="arrow-up"></div>
+            <div class="arrow-down"></div>
+            <div class="card-content" id="card-content">
+               <!-- <div class="card-item">
+               <div class="card-img"><img id="card_img" src="" alt="" /></div>
+               <div class="card-info">
+                  <p id="info-text">Info about user</p>
+               </div>
+               <div class="menu">
+                  <div class="__button"><img src="image/name.svg" alt="" /></div>
+                  <div class="__button"><img src="image/age.svg" alt="" /></div>
+                  <div class="__button"><img src="image/mail.svg" alt="" /></div>
+                  <div class="__button"><img src="image/phone.svg" alt="" /></div>
+                  <div class="__button"><img src="image/adress.svg" alt="" /></div>
+               </div>
+            </div> -->
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
+<script src="js/createCard.js"></script>
+<script src="js/animation.js"></script>
+<script src="js/search.js"></script>
+<script src="js/pageMove.js"></script>
