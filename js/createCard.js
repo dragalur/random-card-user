@@ -14,6 +14,9 @@ async function createCard() {
    card.built.item = document.createElement('div');
    card.built.item.className = 'card-item';
 
+   card.built.span = document.createElement('span');
+   card.built.item.appendChild(card.built.span);
+
    card.built.blocPhoto = document.createElement('div');
    card.built.blocPhoto.className = 'card-img';
 

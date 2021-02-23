@@ -37,14 +37,25 @@ function updateNumberCards(count) {
    checPositionArraw(move);
 }
 
-function openMenu() {
+document.getElementById('menu_button_tel').addEventListener('click', function () {
    const buttomMenu = document.getElementById('menu__close');
-   const menu = document.getElementById('menu__left');
-   const menuSize = menu.offsetWidth;
+   let menu = document.getElementById('menu__left');
+   console.log('dfadfa');
+   //menu.style.display = 'block';
    menu.style.transform = 'translateX(0)';
 
    buttomMenu.addEventListener('click', function () {
       console.log('dfadfa');
-      menu.style.transform = 'translateX(' + -menuSize + ')';
+      menu.style.transform = 'translateX(-100%)';
+      // menu.style.display = 'none';
    });
-}
+});
+
+// function closeMenu() {
+//    // console.log('dfadfa');
+//    // document.getElementById('menu__left').style.transform = 'translateX(-100%)';
+//    let menu = document.getElementById('menu__left');
+//    const menuSize = menu.offsetWidth;
+//    console.log('dfadfa');
+//    menu.style.transform = 'translateX(-100%)';
+// }
