@@ -54,12 +54,18 @@ async function setCardOnPage(n) {
    if (n > arrayUser.length) setCardOnPage(n - arrayUser.length);
 }
 
-let n = 20;
-setCardOnPage(n);
-/*
- *
- *
- *
- *
- *
- */
+setCardOnPage(100);
+
+document.getElementById('menu_button_tel').addEventListener('click', function () {
+   const buttomMenu = document.getElementById('menu__close');
+   let menu = document.getElementById('menu__left');
+   console.log('dfadfa');
+   menu.style.display = 'block';
+   menu.style.transform = 'translateX(0)';
+
+   buttomMenu.addEventListener('click', function () {
+      menu.style.transform = 'translateX(-100%)';
+      menu.style.display = 'none';
+   });
+});
+

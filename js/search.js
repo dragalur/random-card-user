@@ -1,7 +1,6 @@
 /** @format */
 
 function search(id) {
-   let count = 0;
    let test;
    switch (id) {
       case 'buttonSearch':
@@ -22,11 +21,9 @@ function search(id) {
    const cardData = document.querySelectorAll('.card-item');
    for (let i = 0; i < arrayUser.length; i++) {
       if (test(i)) {
-         cardData[i].style.display = 'flex';
-         count++;
+         cardData[i].style.display = 'block';
       } else {
          cardData[i].style.display = 'none';
       }
    }
-   updateNumberCards(count);
 }
