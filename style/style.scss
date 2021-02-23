@@ -266,6 +266,7 @@ body {
       transform: translateX(-100%);
       display: none;
       transition: 0.3s;
+      max-width: 30%;
    }
    .menu_button_tel {
       display: flex;
@@ -287,7 +288,7 @@ body {
       }
    }
    .menu__left * {
-      font-size: 12px;
+      font-size: 15px;
    }
 }
 @media (max-width: 450px) {
