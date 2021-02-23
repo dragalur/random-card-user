@@ -171,13 +171,12 @@ body {
       }
    }
    .card-info {
+      position: relative;
       float: left;
       width: 65%;
       height: 85%;
-
       p {
          text-align: center;
-         margin-top: 30%;
       }
    }
    .menu {
@@ -250,6 +249,9 @@ body {
    .content {
       max-width: 85%;
    }
+   .card-info p {
+      padding-top: 30%;
+   }
 }
 @media (max-width: 1200px) {
    .menu_button_tel,
@@ -258,6 +260,9 @@ body {
    }
    .content {
       max-width: 85%;
+   }
+   .card-info p {
+      padding-top: 30%;
    }
 }
 @media (max-width: 768px) {
@@ -290,6 +295,9 @@ body {
    }
    .menu__left * {
       font-size: 15px;
+   }
+   .card-info p {
+      padding-top: 30%;
    }
 }
 @media (max-width: 450px) {
@@ -326,8 +334,14 @@ body {
       font-weight: 600;
       font-size: 14px;
    }
+   .card-info p {
+      padding-top: 30%;
+   }
 }
 @media (max-height: 450px) {
+   .card-info p {
+      padding-top: 20px;
+   }
    .menu__left {
       position: absolute;
       transform: translateX(-100%);
@@ -360,7 +374,7 @@ body {
    }
    .card-item {
       flex: 0 0 80%;
-      height: 70%;
+      height: 85%;
       font-size: 22px;
    }
 }
