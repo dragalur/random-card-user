@@ -281,6 +281,7 @@ body {
       padding: 10px 0 10px 0;
       font-size: 17px;
       height: calc(100% - 20px);
+      font-weight: 600;
    }
    .block-search-age {
       input[type='text'] {
@@ -310,7 +311,6 @@ body {
    }
    .card-content {
       padding: 10px 0 10px 0;
-      font-size: 14px;
       height: calc(100% - 20px);
    }
    .block-search-age {
@@ -323,6 +323,8 @@ body {
    }
    .card-item {
       flex: 0 0 80%;
+      font-weight: 600;
+      font-size: 14px;
    }
 }
 @media (max-height: 450px) {
@@ -345,6 +347,7 @@ body {
    .card-content {
       padding: 10px 0 10px 0;
       font-size: 14px;
+      font-weight: 500;
       height: calc(100% - 20px);
    }
    .block-search-age {

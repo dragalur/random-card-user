@@ -345,6 +345,7 @@ body {
     display: none;
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    max-width: 30%;
   }
   .menu_button_tel {
     display: -webkit-box;
@@ -361,12 +362,13 @@ body {
     padding: 10px 0 10px 0;
     font-size: 17px;
     height: calc(100% - 20px);
+    font-weight: 600;
   }
   .block-search-age input[type='text'] {
     width: 80%;
   }
   .menu__left * {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -393,7 +395,6 @@ body {
   }
   .card-content {
     padding: 10px 0 10px 0;
-    font-size: 14px;
     height: calc(100% - 20px);
   }
   .block-search-age input[type='text'] {
@@ -406,6 +407,8 @@ body {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 80%;
             flex: 0 0 80%;
+    font-weight: 600;
+    font-size: 14px;
   }
 }
 
@@ -433,6 +436,7 @@ body {
   .card-content {
     padding: 10px 0 10px 0;
     font-size: 14px;
+    font-weight: 500;
     height: calc(100% - 20px);
   }
   .block-search-age input[type='text'] {
