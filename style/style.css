@@ -401,5 +401,10 @@ body {
   .menu__left * {
     font-size: 10px;
   }
+  .card-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 80%;
+            flex: 0 0 80%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

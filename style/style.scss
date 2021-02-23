@@ -93,8 +93,6 @@ body {
    p {
       color: rgb(255, 238, 0);
    }
-   .search-title {
-   }
    input[type='text'] {
       width: 45px;
       height: 25px;
@@ -165,7 +163,6 @@ body {
    .card-img {
       width: 35%;
       height: 85%;
-
       float: left;
       img {
          border-radius: 10px;
@@ -321,5 +318,8 @@ body {
    }
    .menu__left * {
       font-size: 10px;
+   }
+   .card-item {
+      flex: 0 0 80%;
    }
 }
